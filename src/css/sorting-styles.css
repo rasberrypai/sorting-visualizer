@@ -1,0 +1,59 @@
+#sorting-visualizer-flex-box {
+  display: flex;
+  justify-content: center;
+}
+#sorting-visualizer-container  {
+
+}
+#sorting-visualizer-nav {
+
+}
+#sorting-visualizer-select {
+  margin: 0;
+  border: 1px solid #e7e7e7;
+  padding: 3px 6px;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #f3f3f3;
+}
+#sorting-visualizer-canvas {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+#sorting-visualizer-ui{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sorting-visualizer-buttons{
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.sorting-visualizer-button{
+  width: 5rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 6px 12px;
+  text-align: center;
+  background: #f3f3f3;
+  border: 1px solid #e7e7e7;
+}
+#sorting-visualizer-sliders{
+  list-style-type: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.sorting-visualizer-slider{
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
