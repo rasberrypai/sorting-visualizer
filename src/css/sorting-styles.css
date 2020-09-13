@@ -3,8 +3,9 @@
   justify-content: center;
 }
 #sorting-visualizer-container  {
-
+  width: 75%;
 }
+
 #sorting-visualizer-nav {
 
 }
@@ -17,7 +18,7 @@
   background-color: #f3f3f3;
 }
 #sorting-visualizer-canvas {
-  width: 500px;
+  width: 100%;
   height: 300px;
   margin-bottom: 15px;
 }
@@ -37,8 +38,6 @@
 }
 .sorting-visualizer-button{
   width: 5rem;
-  margin-right: 10px;
-  margin-left: 10px;
   font-size: 1rem;
   padding: 6px 12px;
   text-align: center;
@@ -54,6 +53,13 @@
 .sorting-visualizer-slider{
   margin: 0;
   padding: 0;
-  margin-right: 10px;
-  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px){
+  #sorting-visualizer-container {
+   width: 90%;
+  }
+  #sorting-visualizer-sliders{
+    display: block;
+  }
 }
